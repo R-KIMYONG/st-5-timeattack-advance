@@ -1,16 +1,8 @@
-import { useQueryClient } from "@tanstack/react-query";
-import { useState, useEffect } from "react";
-import { useNavigate } from "react-router-dom";
-import { fetchTodos, todoApi } from "../api/todos";
 import TodoForm from "../components/TodoForm";
 import TodoList from "../components/TodoList";
 
 export default function Home() {
   // TODO: useQuery 로 리팩터링 하세요.
-
-
-
-
 
   return (
     <>

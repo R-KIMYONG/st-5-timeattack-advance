@@ -2,7 +2,7 @@ import { useMutation, useQueryClient } from "@tanstack/react-query";
 import { useRef } from "react";
 import { addTodo } from "../api/todos";
 
-export default function TodoForm({ fetchData }) {
+export default function TodoForm() {
   const titleRef = useRef(null);
   const contentsRef = useRef(null);
   const queryClient = useQueryClient();
